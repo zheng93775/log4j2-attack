@@ -57,6 +57,6 @@ java -jar business-app/target/business-app.jar
 
 如果没有预期的结果，可以检查一下漏洞的前提条件
 
-* JDK的版本小于xxx
-* 系统环境变量没有配置
+* JDK的版本小于 6u211 / 7u201 / 8u191 / 11.0.1
+* 系统环境变量没有配置 LOG4J_FORMAT_MESSAGES_PATTERN_DISABLE_LOOKUPS 为 true
 
